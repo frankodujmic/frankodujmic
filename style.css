@@ -29,6 +29,7 @@ html, body
         background-color: #fff8d8;
         position: absolute;
         left: -38px;
+        opacity: 0.2;
     }
 
     #header #logo
