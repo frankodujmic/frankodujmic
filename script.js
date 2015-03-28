@@ -1,4 +1,7 @@
-﻿var images = ['fox-proba4.jpg', 'kaktus-scena3.jpg', 'zecov.jpg', 'maczka.jpg'];
+﻿var images = ['http://frankodujmic.github.io/images/fox-proba4.jpg',
+    'http://frankodujmic.github.io/images/kaktus-scena3.jpg',
+    'http://frankodujmic.github.io/images/zecov.jpg',
+    'http://frankodujmic.github.io/images/maczka.jpg'];
 
 $(document).ready(function () {
     var defaults = {
@@ -39,16 +42,13 @@ function next() {
     //        }
     //    }
     //}
-
-
-    alert($("#image").css("background-image") + "  " + 'url(images/' + images[0] + ')');
     for (i = 0; i <= images.length; i++) {
-        if ($("#image").css("background-image") == 'url(images/' + images[i] + ')') {
-            if (i == images.length-1) {
-                $("#image").css("background-image", 'url(images/' + images[0] + ')');
+        if ($("#image").css("background-image") == 'url(' + images[i] + ')') {
+            if (i == images.length - 1) {
+                $("#image").css("background-image", 'url(' + images[0] + ')');
                 break;
             }
-            $("#image").css("background-image", 'url(images/' + images[i + 1] + ')');
+            $("#image").css("background-image", 'url(' + images[i + 1] + ')');
             break;
         }
     }
