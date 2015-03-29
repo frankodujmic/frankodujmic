@@ -65,9 +65,9 @@
           return $this.attr( DATA_CSS_BG );
         };
 
-        var getCSSBackground = function(){
-          return $this.css('background-image')
-                      .replace('url(','').replace(')','');
+        var getCSSBackground = function () {
+            return $this.css('background-image')
+                        .replace('url(', '').replace(')', '').replace(' ', '').replace(/\"/g, '');
         };
 
         /* Subscribe to our color-found event. */
