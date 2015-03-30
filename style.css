@@ -40,7 +40,32 @@ html, body
         padding-left: 50px;
         background-image: url("logo-ish.png");
         background-size: cover;
+        display: inline-block;
     }
+
+        #header #logo a
+        {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+    #header #about
+    {
+        display: inline-block;
+        float: right;
+        padding: 20px;
+    }
+
+        #header #about a
+        {
+            width: 100%;
+            height: 100%;
+            display: block;
+            color: #fff;
+            font-size: 26px;
+            text-decoration: none;
+        }
 
 #imgHolder
 {
