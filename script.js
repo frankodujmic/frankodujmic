@@ -1,7 +1,8 @@
 var images = ['http://lowpolypessimism.github.io/images/fox-proba4.jpg',
     'http://lowpolypessimism.github.io/images/kaktus-scena3.jpg',
     'http://lowpolypessimism.github.io/images/zecov.jpg',
-    'http://lowpolypessimism.github.io/images/maczka.jpg'];
+    'http://lowpolypessimism.github.io/images/maczka.jpg', 
+    'http://media.giphy.com/media/3oEduZ2CpDE6C30GL6/giphy.gif'];
 
 $(document).ready(function () {
     var defaults = {
