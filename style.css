@@ -74,7 +74,6 @@ html, body
     box-sizing: border-box;
     position: relative;
     overflow: hidden;
-    background-color: #649B6C;
 }
 
     #imgHolder #image
@@ -109,7 +108,6 @@ html, body
         background-repeat: no-repeat;
         background-size: contain;
         background-position: right;
-        background-color: #649B6C;
         width: 500px;
         height: 90%;
         position: absolute;
